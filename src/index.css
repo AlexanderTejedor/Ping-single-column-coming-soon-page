@@ -1,1 +1,24 @@
 @import "tailwindcss";
+
+@theme {
+  --color-blue-62: hsl(223, 87%, 63%);
+  --color-pale-blue-01: hsl(223, 100%, 88%);
+  --color-light-red-66: hsl(354, 100%, 66%);
+  --color-gray-59: hsl(0, 0%, 59%);
+  --color-very-dark-blue: hsl(209, 33%, 12%);
+}
+:root {
+  --font: "Libre Franklin", sans-serif;
+}
+
+*{
+  font-family: var(--font);
+}
+
+/* body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+} */
