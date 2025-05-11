@@ -4,26 +4,32 @@ import image from '../../images/illustration-dashboard.png'
 const Home = () => {
     return (
         <>
-            <section className=''>
+            <section className='flex flex-col items-center justify-center mt-21'>
                 <figure>
-                    <img src={logo} alt="Logo ping" />
+                    <img className='w-14 mb-10' src={logo} alt="Logo ping" />
                 </figure>
-                <h1>We are launching <span>soon!</span></h1>
-                <p>Subscribe and get notified</p>
-                <form>
-                    <input type="email" placeholder='Your email address....' />
-                    <button>Notify Me</button>
+                <h1 className='text-2xl text-gray-59 font-extralight mb-3'>We are launching <span className='font-semibold text-very-dark-blue'>soon!</span></h1>
+                <p className='text-xs text-gray-59 mb-8'>Subscribe and get notified</p>
+                <form className='flex flex-col w-screen px-8'>
+                    <input className='border border-pale-blue-01 py-3 pl-9 rounded-full mb-2 text-sm placeholder:text-pale-blue-01' type="email" placeholder='Your email address....' />
+                    <button className='py-3 px-5 rounded-full mb-18 bg-blue-62 text-white text-sm shadow-[0px_5px_10px_4px_rgba(59,_130,_246,_0.15)]'>Notify Me</button>
                 </form>
-                <figure>
+                <figure className='p-7 mb-25'>
                     <img src={image} alt="Banner with estadistics" />
                 </figure>
-                <div>
-                    <i class="ri-facebook-fill"></i>
-                    <i class="ri-twitter-fill"></i>
-                    <i class="ri-instagram-line"></i>
+                <div className='flex gap-5 text-lg text-blue-62'>
+                    <div className='border border-pale-blue-01 rounded-full mb-2 w-8 flex items-center justify-center'>
+                        <i className="ri-facebook-fill"></i>
+                    </div>
+                    <div className='border border-pale-blue-01 rounded-full mb-2 w-8 flex items-center justify-center'>
+                        <i className="ri-twitter-fill"></i>
+                    </div>
+                    <div className='border border-pale-blue-01 rounded-full mb-2 w-8 flex items-center justify-center'>
+                        <i className="ri-instagram-line"></i>
+                    </div>
                 </div>
             </section>
-            <footer>© Copyright Ping. All rights reserved.</footer>
+            <footer className='text-center text-xs text-gray-59 m-9'>© Copyright Ping. All rights reserved.</footer>
         </>
     )
 }
