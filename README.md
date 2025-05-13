@@ -36,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/AlexanderTejedor/Intro-component-with-sign-up-form)
-- Live Site URL: [GitHub Pages](https://alexandertejedor.github.io/Intro-component-with-sign-up-form/)
+- Solution URL: [GitHub](https://github.com/AlexanderTejedor/Ping-single-column-coming-soon-page)
+- Live Site URL: [GitHub Pages](https://alexandertejedor.github.io/Ping-single-column-coming-soon-page/)
 
 ## My process
 
