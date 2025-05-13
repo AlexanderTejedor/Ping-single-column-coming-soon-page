@@ -35,7 +35,7 @@ const Home = () => {
                             }/>
                         { errors.email && <p className='text-xs text-light-red-66 italic pt-1 pl-10'>{errors.email.message}</p> }
                     </div>
-                    <button onClick={onSubmit} className='py-3 px-5 rounded-full bg-blue-62 text-white text-sm shadow-[0px_5px_10px_4px_rgba(59,_130,_246,_0.15)] cursor-pointer lg:w-55'>Notify Me</button>
+                    <button onClick={onSubmit} className={`py-3 px-5 rounded-full text-white text-sm shadow-[0px_5px_10px_4px_rgba(59,_130,_246,_0.15)] cursor-pointer lg:w-55 ${errors.email ? `bg-blue-300` : `bg-blue-62`}`}>Notify Me</button>
                 </form>
                 <figure className='p-7 mb-25 md:max-w-150 lg:max-w-170 lg:mb-20'>
                     <img src={image} alt="Banner with estadistics" />
